@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.regexp.feature_0.3.0.qualifier.jar" id="org.eclipse.regexp.feature" version="0.3.0.qualifier">
+      <category name="general"/>
+   </feature>
+   <category-def name="general" label="General"/>
+</site>

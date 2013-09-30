@@ -1,3 +1,13 @@
+/*******************************************import org.eclipse.jface.preference.BooleanFieldEditor;
+import org.eclipse.jface.preference.FieldEditorPreferencePage;
+import org.eclipse.regexp.ui.RegexpUIConstants;
+import org.eclipse.regexp.ui.RegexpUIPlugin;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.ui.IWorkbench;
+import org.eclipse.ui.IWorkbenchPreferencePage;
+utors:
+ *     Igor Zapletnev - initial API and Implementation
+ *******************************************************************************/
 package org.eclipse.regexp.ui.view.prefs;
 
 import org.eclipse.jface.preference.BooleanFieldEditor;
