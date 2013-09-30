@@ -60,10 +60,12 @@ public class InputSection implements IValueChangeListener {
 
 		inputs.add(inputControl);
 		refresh();
+		handleValueChange(null);
 	}
 
 	public void removeInput(final InputControl input) {
 		inputs.remove(input);
+		handleValueChange(null);
 	}
 
 	public class InputControlToStr implements Function<InputControl, String> {

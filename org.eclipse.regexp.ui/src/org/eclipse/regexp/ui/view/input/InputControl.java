@@ -39,11 +39,16 @@ public class InputControl implements IHyperlinkListener {
 				.grab(true, false).hint(SWT.DEFAULT, 3 * input.getLineHeight())
 				.applyTo(input);
 
-		hideBtn = toolkit.createImageHyperlink(composite, SWT.NONE);
-		hideBtn.setImage(PlatformUI.getWorkbench().getSharedImages()
-				.getImage(ISharedImages.IMG_ETOOL_DELETE));
-		hideBtn.addHyperlinkListener(this);
-		GridDataFactory.swtDefaults().align(SWT.LEFT, SWT.TOP).applyTo(hideBtn);
+		if (index != 1) {
+			hideBtn = toolkit.createImageHyperlink(composite, SWT.NONE);
+			hideBtn.setImage(PlatformUI.getWorkbench().getSharedImages()
+					.getImage(ISharedImages.IMG_ETOOL_DELETE));
+			hideBtn.addHyperlinkListener(this);
+			GridDataFactory.swtDefaults().align(SWT.LEFT, SWT.TOP)
+					.applyTo(hideBtn);
+		} else {
+			toolkit.createLabel(composite, "");
+		}
 
 		refresh(index);
 	}

@@ -1,3 +1,2 @@
-/bin
-/target
-/.metadata
+bin/
+target/
