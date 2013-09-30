@@ -1,6 +1,0 @@
-package org.eclipse.regexp.ui.view.prefs;
-
-import org.eclipse.jface.preference.PreferencePage;
-
-public class RegexpPreferencePage extends PreferencePage {
-}

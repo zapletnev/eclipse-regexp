@@ -1,8 +1,0 @@
-package org.eclipse.regexp.ui.common;
-
-public class Snippet {
-	public static void main(String[] args) {
-		toolkit.createLabel(inputPanel, "Input 1:");
-	}
-}
-

@@ -1,6 +1,0 @@
-package org.eclipse.regexp.ui;
-
-public class RegexpUIConstants {
-
-	public static final String PLUGIN_ID = 
-}

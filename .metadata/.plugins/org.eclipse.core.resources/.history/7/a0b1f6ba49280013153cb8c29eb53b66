@@ -1,5 +1,0 @@
-package org.eclipse.regexp.ui.view.input;
-
-import com.google.common.base.Function;
-
-

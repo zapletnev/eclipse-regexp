@@ -1,7 +1,0 @@
-package org.eclipse.regexp;
-
-public class InputResult {
-
-	public InputResult() {
-	}
-}
