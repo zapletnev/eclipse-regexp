@@ -1,0 +1,15 @@
+package org.eclipse.regexp;
+
+public class RegexpConstanstants {
+
+	public static final String PLUGIN_ID = "org.eclipse.regexp";
+
+	public static final String CANON_EQ = PLUGIN_ID + "canon_eq";
+	public static final String CASE_INSENSITIVE = "case_insensitive";
+	public static final String COMMENTS = "comments";
+	public static final String DOTALL = "dotall";
+	public static final String LITERAL = "literal";
+	public static final String MULTILINE = "multiline";
+	public static final String UNICODE_CASE = "unicode_case";
+	public static final String UNIX_LINES = "unix_lines";
+}

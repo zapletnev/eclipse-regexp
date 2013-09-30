@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Regexp
+Bundle-SymbolicName: org.eclipse.regexp
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.eclipse.regexp
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.9.0,4.0.0)",
+ com.google.guava;bundle-version="[10.0.0,11.0.0)"

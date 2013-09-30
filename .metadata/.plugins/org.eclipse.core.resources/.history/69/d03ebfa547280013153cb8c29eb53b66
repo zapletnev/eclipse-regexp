@@ -1,0 +1,18 @@
+package org.eclipse.regexp;
+
+import org.eclipse.core.runtime.IStatus;
+
+public class TestResult {
+
+	public IStatus status;
+
+	public TestResult() {
+	}
+
+	void addInpuResult(final String input) {
+	}
+
+	void setStatus(final IStatus status) {
+		this.status = status;
+	}
+}

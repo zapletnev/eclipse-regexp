@@ -1,0 +1,8 @@
+package org.eclipse.regexp;
+
+public class RegexpResult {
+
+	public RegexpResult() {
+	}
+
+}

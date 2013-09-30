@@ -1,0 +1,35 @@
+package org.eclipse.regexp;
+
+import java.util.List;
+
+import com.google.common.collect.Lists;
+
+public class RegexpResult {
+
+	public final String input;
+	public final boolean mathes;
+	public final String replaceFirst;
+	public final String replaceAll;
+	public final boolean lookingAt;
+	public final boolean find;
+
+	public List<Group> groups = Lists.newArrayList();
+	
+	public RegexpResult(final String input, final boolean mathes,
+			final String replaceFirst, final String replaceAll,
+			final boolean lookingAt, final boolean find) {
+		this.input = input;
+		this.mathes = mathes;
+		this.replaceFirst = replaceFirst;
+		this.replaceAll = replaceAll;
+		this.lookingAt = lookingAt;
+		this.find = find;
+	}
+	
+	public class Group {
+	}
+	
+	void addGroup() {
+		
+	}
+}

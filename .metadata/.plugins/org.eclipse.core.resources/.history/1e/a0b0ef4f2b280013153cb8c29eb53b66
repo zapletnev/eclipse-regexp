@@ -1,0 +1,45 @@
+package org.eclipse.regexp.ui.view;
+
+import org.eclipse.jface.layout.GridDataFactory;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Control;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.ui.forms.widgets.FormToolkit;
+
+public class InputControl {
+
+	private final int index;
+
+	public Label label;
+	private Text input;
+
+	public InputControl(final int index) {
+		this.index = index;
+	}
+
+	public void create(final Composite composite, final FormToolkit toolkit) {
+		label = toolkit.createLabel(composite, "Input " + index + ":");
+		GridDataFactory.swtDefaults().align(SWT.LEFT, SWT.CENTER)
+				.applyTo(label);
+
+		input = toolkit.createText(composite, "", SWT.SINGLE | SWT.BORDER
+				| SWT.SEARCH | SWT.ICON_CANCEL);
+		GridDataFactory.swtDefaults().align(SWT.FILL, SWT.CENTER)
+				.grab(true, false).applyTo(input);
+	}
+
+	public void hide() {
+		hide(label);
+		hide(input);
+	}
+
+	private void hide(final Control control) {
+		final GridData data = (GridData) control.getLayoutData();
+		data.exclude = true;
+		control.setVisible(false);
+	}
+
+}

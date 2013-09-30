@@ -1,0 +1,11 @@
+package org.eclipse.regexp.ui.view;
+
+import org.eclipse.jface.action.Action;
+
+public class OpenSettings extends Action {
+
+	@Override
+	public void run() {
+		super.run();
+	}
+}

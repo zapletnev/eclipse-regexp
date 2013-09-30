@@ -1,0 +1,23 @@
+package org.eclipse.regexp.ui.view.results;
+
+import org.eclipse.jface.viewers.OwnerDrawLabelProvider;
+import org.eclipse.swt.widgets.Event;
+
+public class ResultsOwnerDrawLabelProvider extends OwnerDrawLabelProvider {
+
+	@Override
+	protected void measure(final Event event, final Object element) {
+		LineEntry line = (LineEntry) element;
+		Point size = event.gc.textExtent(line.line);
+		event.width = viewer.getTable().getColumn(event.index).getWidth();
+		int lines = size.x / event.width + 1;
+		event.height = size.y * lines;
+
+	}
+
+	@Override
+	protected void paint(final Event event, final Object element) {
+		// TODO Auto-generated method stub
+
+	}
+}

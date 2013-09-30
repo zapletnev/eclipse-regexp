@@ -1,0 +1,741 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f61f71496ffdd90c7b1af3c651a2223e906508a5",
+    "jarFileModificationDate": "2013-06-20T22:55:57+04:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Home/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.swt.cocoa.macosx.x86_64",
+    "version": {
+      "major": 3,
+      "minor": 102,
+      "micro": 0,
+      "qualifier": "v20130605-1544"
+    },
+    "jarFileFingerprint": "263c5b3caa6a883d880f8b6d4983ea22eab20d2f",
+    "jarFileModificationDate": "2013-06-14T07:05:46+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.102.0.v20130605-1544.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.core.commands",
+    "version": {
+      "major": 3,
+      "minor": 6,
+      "micro": 100,
+      "qualifier": "v20130515-1857"
+    },
+    "jarFileFingerprint": "3332bf431cb1eca882df8a46fcd97b688aeb8afb",
+    "jarFileModificationDate": "2013-06-14T07:05:13+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.core.commands_3.6.100.v20130515-1857.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "70e3f9e76e3d5884415516c0cee0855295bcb571",
+    "jarFileModificationDate": "2013-06-20T22:49:47+04:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Classes/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "55d49c51ab1bb95cc92767fcf4b7544e353d37c2",
+    "jarFileModificationDate": "2013-06-20T23:06:59+04:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Home/lib/ext/apple_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ca9e390a18f6bed5719c731eb0a021da33ada472",
+    "jarFileModificationDate": "2011-07-14T23:43:29+04:00",
+    "location": "/System/Library/Java/Extensions/j3dcore.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "187a3cf6ae2087c1e05147287a8c627acbc4d497",
+    "jarFileModificationDate": "2011-09-03T03:37:04+04:00",
+    "location": "/System/Library/Java/Extensions/AppleScriptEngine.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.jface.databinding",
+    "version": {
+      "major": 1,
+      "minor": 6,
+      "micro": 200,
+      "qualifier": "v20130515-1857"
+    },
+    "jarFileFingerprint": "cbdcf9eda82b5c3329a8fb5b2432fc88aec8bba4",
+    "jarFileModificationDate": "2013-06-14T07:05:27+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.jface.databinding_1.6.200.v20130515-1857.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b4422ea2dd5779f748e38c0f7fa484df01d7d730",
+    "jarFileModificationDate": "2013-05-24T10:48:10+04:00",
+    "location": "/System/Library/Java/Extensions/QTJava.zip",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "apple_provider",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3a1fb5c4f887ebe190890089d36c29e9c9040430",
+    "jarFileModificationDate": "2013-06-20T23:07:03+04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "runtime_registry_compatibility",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ac04672bb5fe775a57510ac581b6645210c11c32",
+    "jarFileModificationDate": "2013-05-15T05:22:40+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.core.runtime.compatibility.registry_3.5.200.v20130514-1256/runtime_registry_compatibility.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3d8a1a2a25b21ebd6b7ab99613e91c57e46bda9c",
+    "jarFileModificationDate": "2013-07-11T21:57:50+04:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Home/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f433861631c5e16bbe890a2303a14cbd183f5237",
+    "jarFileModificationDate": "2013-07-11T21:57:45+04:00",
+    "location": "/System/Library/Java/Extensions/MRJToolkit.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.core.runtime",
+    "version": {
+      "major": 3,
+      "minor": 9,
+      "micro": 0,
+      "qualifier": "v20130326-1255"
+    },
+    "jarFileFingerprint": "93ddd8e0b4e694dad4ed4bf305809fb7ff567294",
+    "jarFileModificationDate": "2013-06-14T07:05:14+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.core.runtime_3.9.0.v20130326-1255.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.ui",
+    "version": {
+      "major": 3,
+      "minor": 105,
+      "micro": 0,
+      "qualifier": "v20130522-1122"
+    },
+    "jarFileFingerprint": "fe7961858296aa3335c94c4db369cd9152dbc797",
+    "jarFileModificationDate": "2013-06-14T07:05:47+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.ui_3.105.0.v20130522-1122.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.equinox.registry",
+    "version": {
+      "major": 3,
+      "minor": 5,
+      "micro": 300,
+      "qualifier": "v20130327-1442"
+    },
+    "jarFileFingerprint": "328083486e75f87c6582660bba6117868679a1c1",
+    "jarFileModificationDate": "2013-06-14T07:05:22+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.equinox.registry_3.5.300.v20130327-1442.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jsse",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bcd6ab898f8c739b8347e7daa8fe1de5f375b39d",
+    "jarFileModificationDate": "2013-06-20T22:49:47+04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "localedata",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "21e2c89c20c89d5ec767e01e214e5a7f92c2b139",
+    "jarFileModificationDate": "2013-06-20T22:59:53+04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/localedata.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4f8da5f0b2561d280a59a4414c59083dec8e0227",
+    "jarFileModificationDate": "2011-07-15T00:44:11+04:00",
+    "location": "/System/Library/Java/Extensions/jai_codec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.e4.ui.workbench3",
+    "version": {
+      "major": 0,
+      "minor": 12,
+      "micro": 0,
+      "qualifier": "v20130515-1857"
+    },
+    "jarFileFingerprint": "86f3ec29981200ea5043d306fccc79872bad5eac",
+    "jarFileModificationDate": "2013-06-14T07:05:16+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.e4.ui.workbench3_0.12.0.v20130515-1857.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.core.databinding",
+    "version": {
+      "major": 1,
+      "minor": 4,
+      "micro": 1,
+      "qualifier": "v20130515-1857"
+    },
+    "jarFileFingerprint": "a3c8d5f796cb3187a5fdbc0b3d03bca6110d4c23",
+    "jarFileModificationDate": "2013-06-14T07:05:13+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.core.databinding_1.4.1.v20130515-1857.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.osgi",
+    "version": {
+      "major": 3,
+      "minor": 9,
+      "micro": 0,
+      "qualifier": "v20130529-1710"
+    },
+    "jarFileFingerprint": "db671f837d6fd97ddb1cd293d57875d92e07d64a",
+    "jarFileModificationDate": "2013-06-14T07:05:33+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.osgi_3.9.0.v20130529-1710.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "34699721120eede31b7fe5140226deedc0b2aab9",
+    "jarFileModificationDate": "2011-07-14T23:43:29+04:00",
+    "location": "/System/Library/Java/Extensions/j3daudio.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.jface",
+    "version": {
+      "major": 3,
+      "minor": 9,
+      "micro": 0,
+      "qualifier": "v20130521-1714"
+    },
+    "jarFileFingerprint": "5c6ec6c72c96c6f4275329a1167c8d7380bbc5d2",
+    "jarFileModificationDate": "2013-06-14T07:05:27+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.jface_3.9.0.v20130521-1714.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0999f1f3951d713e9a0d96f063f6f6e931589cdd",
+    "jarFileModificationDate": "2011-07-14T23:43:29+04:00",
+    "location": "/System/Library/Java/Extensions/vecmath.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0a96b7d4126b3a5e4ac1bfb648ce0a059e03f7de",
+    "jarFileModificationDate": "2013-07-11T21:57:52+04:00",
+    "location": "/System/Library/Java/Extensions/dns_sd.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.swt",
+    "version": {
+      "major": 3,
+      "minor": 102,
+      "micro": 0,
+      "qualifier": "v20130605-1539"
+    },
+    "jarFileFingerprint": "70a06ae5998c6c42fc29653f3e7bc1aa7fe40f92",
+    "jarFileModificationDate": "2013-06-14T07:05:45+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.swt_3.102.0.v20130605-1539.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.ui.workbench",
+    "version": {
+      "major": 3,
+      "minor": 105,
+      "micro": 0,
+      "qualifier": "v20130529-1406"
+    },
+    "jarFileFingerprint": "e4c684be2b20c3493aec823347e00bebf7bc5bb5",
+    "jarFileModificationDate": "2013-06-14T07:05:51+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.ui.workbench_3.105.0.v20130529-1406.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "sunjce_provider",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c40b948a8103c939a0da54723630db9d4633c350",
+    "jarFileModificationDate": "2013-06-20T22:49:47+04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunjce_provider.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "sunpkcs11",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f61f71496ffdd90c7b1af3c651a2223e906508a5",
+    "jarFileModificationDate": "2013-06-20T22:55:57+04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/sunpkcs11.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c40b948a8103c939a0da54723630db9d4633c350",
+    "jarFileModificationDate": "2013-06-20T22:49:47+04:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Home/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c5d7b7bfab9b433c4b62aebbe76a564b6bcf8192",
+    "jarFileModificationDate": "2011-07-15T00:43:57+04:00",
+    "location": "/System/Library/Java/Extensions/mlibwrapper_jai.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.regexp",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2013-09-28T11:32:38+04:00",
+    "location": "/Users/zapletnev/Documents/src/regexp/org.eclipse.regexp/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.equinox.app",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 100,
+      "qualifier": "v20130327-1442"
+    },
+    "jarFileFingerprint": "ae6b3f37e295b65ecbbddf356d06262a07f281cf",
+    "jarFileModificationDate": "2013-06-14T07:05:19+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.equinox.app_1.3.100.v20130327-1442.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8743c428566b63467815409cd8ea48e54c8def72",
+    "jarFileModificationDate": "2013-06-20T23:04:11+04:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Classes/classes.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.draw2d",
+    "version": {
+      "major": 3,
+      "minor": 9,
+      "micro": 0,
+      "qualifier": "201305060205"
+    },
+    "jarFileFingerprint": "cd5f455fb0442c6c626397514ba9cca09c59c395",
+    "jarFileModificationDate": "2013-06-14T07:05:15+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.draw2d_3.9.0.201305060205.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.regexp.ui",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "qualifier"
+    },
+    "jarFileModificationDate": "2013-09-28T11:31:51+04:00",
+    "location": "/Users/zapletnev/Documents/src/regexp/org.eclipse.regexp.ui/src",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.core.contenttype",
+    "version": {
+      "major": 3,
+      "minor": 4,
+      "micro": 200,
+      "qualifier": "v20130326-1255"
+    },
+    "jarFileFingerprint": "0335ae99862a28b05778fbd10fbf65e000ae3cfe",
+    "jarFileModificationDate": "2013-06-14T07:05:13+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.core.contenttype_3.4.200.v20130326-1255.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b6e9b43a5e9bbbf0b7422beb7ca3fc9781b741d5",
+    "jarFileModificationDate": "2013-06-20T22:59:51+04:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Home/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "80a1b59c9a46cd5cd3869637f77eb5261937fd35",
+    "jarFileModificationDate": "2011-07-14T23:43:29+04:00",
+    "location": "/System/Library/Java/Extensions/j3dutils.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.equinox.preferences",
+    "version": {
+      "major": 3,
+      "minor": 5,
+      "micro": 100,
+      "qualifier": "v20130422-1538"
+    },
+    "jarFileFingerprint": "75b77bdb8eb93ed5c6d36267c46bf4ff50476747",
+    "jarFileModificationDate": "2013-06-14T07:05:22+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.equinox.preferences_3.5.100.v20130422-1538.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.ui.forms",
+    "version": {
+      "major": 3,
+      "minor": 6,
+      "micro": 0,
+      "qualifier": "v20130517-0139"
+    },
+    "jarFileFingerprint": "4a319e9b11a1d0b97924834ac19fbc1ab59737a3",
+    "jarFileModificationDate": "2013-06-14T07:05:48+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.ui.forms_3.6.0.v20130517-0139.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "charsets",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9ca8d787aee281343cffe1507d3b5e7f808b8d12",
+    "jarFileModificationDate": "2013-06-20T23:00:02+04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jce",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "70e3f9e76e3d5884415516c0cee0855295bcb571",
+    "jarFileModificationDate": "2013-06-20T22:49:47+04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bcd6ab898f8c739b8347e7daa8fe1de5f375b39d",
+    "jarFileModificationDate": "2013-06-20T22:49:47+04:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Classes/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.core.databinding.property",
+    "version": {
+      "major": 1,
+      "minor": 4,
+      "micro": 200,
+      "qualifier": "v20130515-1857"
+    },
+    "jarFileFingerprint": "1cfc66df19e4e92bdd1f1114db5834d9f5f92ead",
+    "jarFileModificationDate": "2013-06-14T07:05:14+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.core.databinding.property_1.4.200.v20130515-1857.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.guava",
+    "version": {
+      "major": 11,
+      "minor": 0,
+      "micro": 2,
+      "qualifier": "v201303041551"
+    },
+    "jarFileFingerprint": "4c3a10243dd8fefacac9d58af64c48d2ab8c8b5f",
+    "jarFileModificationDate": "2013-08-01T11:30:09+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/com.google.guava_11.0.2.v201303041551.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.google.guava",
+    "version": {
+      "major": 10,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": "v201203051515"
+    },
+    "jarFileFingerprint": "f5fc09579225382a4b9ff6e90d4eecdcb4f07ac4",
+    "jarFileModificationDate": "2013-06-14T07:05:05+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/com.google.guava_10.0.1.v201203051515.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.core.jobs",
+    "version": {
+      "major": 3,
+      "minor": 5,
+      "micro": 300,
+      "qualifier": "v20130429-1813"
+    },
+    "jarFileFingerprint": "69a54a3766004fc09222e2be6da544dde50ba50f",
+    "jarFileModificationDate": "2013-06-14T07:05:14+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.core.jobs_3.5.300.v20130429-1813.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.core.databinding.observable",
+    "version": {
+      "major": 1,
+      "minor": 4,
+      "micro": 1,
+      "qualifier": "v20130515-1857"
+    },
+    "jarFileFingerprint": "5c00810c21ee83dea9bfefb71b98e45be7877e2d",
+    "jarFileModificationDate": "2013-06-14T07:05:14+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3fe6f83d742b6a9d31dc1545ed3818f890329479",
+    "jarFileModificationDate": "2013-06-20T23:00:01+04:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Classes/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "ui",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c0c9c3ebe7167f7bf790909276f5a0f7db034b1a",
+    "jarFileModificationDate": "2013-06-20T23:06:56+04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.eclipse.equinox.common",
+    "version": {
+      "major": 3,
+      "minor": 6,
+      "micro": 200,
+      "qualifier": "v20130402-1505"
+    },
+    "jarFileFingerprint": "f930417b1602dafb370d7b9ed7871c87e0b355b1",
+    "jarFileModificationDate": "2013-06-14T07:05:19+04:00",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ca15a6f769eec9a48236df8be43feb9f6a2639de",
+    "jarFileModificationDate": "2013-06-20T23:06:52+04:00",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Classes/ui.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "096c07686702497c46affdf25d6559ac10235884",
+    "jarFileModificationDate": "2011-07-15T00:44:11+04:00",
+    "location": "/System/Library/Java/Extensions/jai_core.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "classes",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4f7f0960a64ab5df8d33e0bb48a77134e25f52fb",
+    "jarFileModificationDate": "2013-06-20T23:04:23+04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "dnsns",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3d8a1a2a25b21ebd6b7ab99613e91c57e46bda9c",
+    "jarFileModificationDate": "2013-07-10T22:54:58+04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar",
+    "javaRuntime": false
+  }
+]

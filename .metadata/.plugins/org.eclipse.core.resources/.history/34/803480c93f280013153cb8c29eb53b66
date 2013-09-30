@@ -1,0 +1,6 @@
+package org.eclipse.regexp;
+
+public class RegexpConstanstants {
+
+	public static final String CANON_EQ = "CANON_EQ";
+}

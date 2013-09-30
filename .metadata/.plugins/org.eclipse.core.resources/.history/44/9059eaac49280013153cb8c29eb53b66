@@ -1,0 +1,12 @@
+package org.eclipse.regexp.ui.view.input;
+
+import com.google.common.base.Function;
+
+public class InputControlToStr implements Function<InputControl, String> {
+
+	@Override
+	public String apply(InputControl ctrl) {
+		return ctrl.getInput();
+	}
+
+}

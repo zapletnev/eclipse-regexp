@@ -1,0 +1,19 @@
+1380353735583	Rename type 'RegularExpressions'
+1380354651869	Rename local variable 'parent'
+1380354988286	Rename field 'regExpText'
+1380355164672	Rename local variable 'endpointSection'
+1380355175473	Rename local variable 'endpointPanel'
+1380363726609	Rename method 'doCreateInput'
+1380367881204	Delete element
+1380367907233	Rename type 'InputsSection'
+1380367973184	Move compilation unit
+1380368541258	Move compilation unit
+1380371924544	Rename type 'AddInputControl'
+1380371940659	Rename method 'hide'
+1380373747645	Delete element
+1380374950449	Rename resource 'settings16.png'
+1380374952186	Move file
+1380374958392	Rename resource 'settings.png'
+1380378092865	Delete element
+1380378288574	Delete element
+1380379302994	Rename local variable 'inputPanel'

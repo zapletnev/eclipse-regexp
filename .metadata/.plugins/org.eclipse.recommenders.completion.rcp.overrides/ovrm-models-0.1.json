@@ -1,0 +1,32 @@
+{
+  "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.ui.workbench_3.105.0.v20130529-1406.jar": {
+    "coordinate": "org.eclipse.ui:org.eclipse.ui.workbench:zip:ovrm:3.0.0",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.ui.workbench_3.105.0.v20130529-1406.jar",
+    "status": "RESOLVED"
+  },
+  "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.102.0.v20130605-1544.jar": {
+    "coordinate": "org.eclipse.swt:org.eclipse.swt.cocoa.macosx.x86_64:zip:ovrm:3.0.0",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.102.0.v20130605-1544.jar",
+    "status": "RESOLVED"
+  },
+  "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.core.runtime_3.9.0.v20130326-1255.jar": {
+    "coordinate": "org.eclipse.core:org.eclipse.core.runtime:zip:ovrm:3.0.0",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.core.runtime_3.9.0.v20130326-1255.jar",
+    "status": "RESOLVED"
+  },
+  "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.jface_3.9.0.v20130521-1714.jar": {
+    "coordinate": "org.eclipse.jface:org.eclipse.jface:zip:ovrm:3.0.0",
+    "location": "/Applications/eclipses/eclipse-4.3/plugins/org.eclipse.jface_3.9.0.v20130521-1714.jar",
+    "status": "RESOLVED"
+  },
+  "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar": {
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar\u0027. Neither fingerprint \u00274f7f0960a64ab5df8d33e0bb48a77134e25f52fb\u0027 nor symbolic name \u0027classes\u0027 are known."
+  },
+  "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Classes/classes.jar": {
+    "coordinate": "jre:jre:zip:ovrm:1.0.0",
+    "location": "/Library/Java/JavaVirtualMachines/1.6.0_51-b11-457.jdk/Contents/Classes/classes.jar",
+    "status": "RESOLVED"
+  }
+}

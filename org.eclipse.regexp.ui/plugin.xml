@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            category="org.eclipse.ui"
+            class="org.eclipse.regexp.ui.view.RegularExpressionsView"
+            id="org.eclipse.regexp.ui.view"
+            name="Regular Expressions"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="org.eclipse.regexp.ui.view.prefs.RegexpPreferencePage"
+            id="org.eclipse.regexp.ui.prefs"
+            name="Regular Expressions">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.eclipse.regexp.ui.view">
+         <command
+               commandId="org.eclipse.regexp.ui.prefs"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="org.eclipse.regexp.ui.view.RegexpPreferencesHandler"
+            id="org.eclipse.regexp.ui.prefs"
+            name="Preferences">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commandImages">
+      <image
+            commandId="org.eclipse.regexp.ui.prefs"
+            icon="icons/etool16/settings16.png">
+      </image>
+   </extension>
+
+</plugin>

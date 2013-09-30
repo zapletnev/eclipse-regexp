@@ -1,0 +1,27 @@
+package org.eclipse.regexp.ui.view;
+
+import org.eclipse.jface.action.Action;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.ui.ISharedImages;
+import org.eclipse.ui.PlatformUI;
+import org.eclipse.ui.forms.widgets.FormToolkit;
+
+public class AddInputControl extends Action {
+
+	private final Composite inputPanel;
+	private final FormToolkit toolkit;
+	private final int index = 0;
+
+	public AddInputControl(final Composite inputPanel, final FormToolkit toolkit) {
+		super("More input", PlatformUI.getWorkbench().getSharedImages()
+				.getImageDescriptor(ISharedImages.IMG_OBJ_ADD));
+
+		this.inputPanel = inputPanel;
+		this.toolkit = toolkit;
+	}
+
+	@Override
+	public void run() {
+		InputControl control = new InputControl(inputPanel, toolkit, index++);
+	}
+}

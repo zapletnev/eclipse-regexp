@@ -1,0 +1,122 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Built-By: hudsonbuild
+Bundle-SymbolicName: org.eclipse.rap.tools.intro;singleton:=true
+Eclipse-LazyStart: true
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/rap/or
+ g.eclipse.rap.tools.git;path="bundles/org.eclipse.rap.tools.intro";co
+ mmitId=c9c3effbc78bddd0f8a016c4da851e76f93b1ce3
+Require-Bundle: org.eclipse.ui.intro,org.eclipse.ui.intro.universal,or
+ g.eclipse.ui,org.eclipse.ui.cheatsheets,org.eclipse.pde.core,org.ecli
+ pse.core.runtime,org.eclipse.ant.core,org.eclipse.core.resources,org.
+ eclipse.equinox.p2.metadata,org.eclipse.equinox.p2.core,org.eclipse.e
+ quinox.p2.repository
+Bundle-Activator: org.eclipse.rap.ui.internal.intro.IntroPlugin
+Export-Package: org.eclipse.rap.ui.internal.intro;x-friends:="org.ecli
+ pse.rap.ui.tests",org.eclipse.rap.ui.internal.intro.commands;x-intern
+ al:=true,org.eclipse.rap.ui.internal.intro.target;x-friends:="org.ecl
+ ipse.rap.ui.tests"
+Bundle-Version: 2.1.0.20130513-1017
+Build-Jdk: 1.5.0_16
+Bundle-Vendor: %Bundle-Vendor
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %Bundle-Name
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Bundle-ManifestVersion: 2
+
+Name: intro/graphics/extract_target.gif
+SHA1-Digest: mP42BavEe8Hd+HYdvwulqv3oz08=
+
+Name: org/eclipse/rap/ui/internal/intro/target/InstallTargetDialog$1.c
+ lass
+SHA1-Digest: YgsfLlFYO41/7wQ/CBio07Gr5oI=
+
+Name: META-INF/maven/org.eclipse.rap/org.eclipse.rap.tools.intro/pom.x
+ ml
+SHA1-Digest: ZSijSikYH3az7rh/QOCDZYf36m8=
+
+Name: plugin.properties
+SHA1-Digest: TNnHPPbB0OsRvQOk8o/3WdbdeI4=
+
+Name: org/eclipse/rap/ui/internal/intro/target/TargetProvider.class
+SHA1-Digest: phFHJl81We+5O2DYH2uX3GK+OBM=
+
+Name: org/eclipse/rap/ui/internal/intro/commands/LaunchRAPApplication.
+ class
+SHA1-Digest: H/dT4TmEdYB2AgoHNkqpXvMpYc0=
+
+Name: cheatsheets/getting-started.xml
+SHA1-Digest: YXyPbL9UhM1gHthFpnVvtehXX/0=
+
+Name: org/eclipse/rap/ui/internal/intro/ErrorUtil.class
+SHA1-Digest: HK+a//pfr3usMptSr8G9t/gLoj4=
+
+Name: org/eclipse/rap/ui/internal/intro/target/InstallRAPTargetHandler
+ .class
+SHA1-Digest: dBCGl93Atm1kgDjlQGxM7R+rl3s=
+
+Name: intro/graphics/rap.png
+SHA1-Digest: 3nIfIOeeLrCXLOX/X46MR/niuJY=
+
+Name: plugin.xml
+SHA1-Digest: JSSa1sVvvz6WDPpXZONnXruyJL0=
+
+Name: intro/css/overview.css
+SHA1-Digest: QcGxGH19A8KOzViQpJnTMj0OC1E=
+
+Name: intro/graphics/tu_checkout48.gif
+SHA1-Digest: huJw6xHMsj2LT1Q3HgsQiEbzNFw=
+
+Name: org/eclipse/rap/ui/internal/intro/target/IntroMessages.class
+SHA1-Digest: PBeWpRFetg0xD/ynX1VTx3up4/E=
+
+Name: META-INF/maven/org.eclipse.rap/org.eclipse.rap.tools.intro/pom.p
+ roperties
+SHA1-Digest: wEjlcCfuPKnUROjchaf8oBycqIw=
+
+Name: intro/graphics/quick_tour.gif
+SHA1-Digest: 3WM5AjtvQF9BwvL7dI+zCD1kpu4=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: org/eclipse/rap/ui/internal/intro/commands/LaunchRAPApplication$
+ 1.class
+SHA1-Digest: L4tOyezd8NSOsZBt67v0Twcb5ag=
+
+Name: org/eclipse/rap/ui/internal/intro/ErrorUtil$1.class
+SHA1-Digest: HeYyPEI0DcR7mACEmaaYq0PaY6Q=
+
+Name: org/eclipse/rap/ui/internal/intro/target/InstallRAPTargetHandler
+ $1.class
+SHA1-Digest: T4BretDcM0xpZkEYKqcPpQQ/Dk8=
+
+Name: org/eclipse/rap/ui/internal/intro/target/InstallRAPTargetHandler
+ $2.class
+SHA1-Digest: nRyazAaIVmYNubyP3rhFf48qjlU=
+
+Name: about.html
+SHA1-Digest: EDMbfdZtAOAztTA0u8UO/Mu1bxc=
+
+Name: org/eclipse/rap/ui/internal/intro/IntroPlugin.class
+SHA1-Digest: VRFY3Y4THXyk4wS+4O/p28ZimyE=
+
+Name: org/eclipse/rap/ui/internal/intro/target/messages.properties
+SHA1-Digest: Kk4ajItF/qoXfyg6JHsPgpdNl2U=
+
+Name: org/eclipse/rap/ui/internal/intro/target/InstallRAPTargetAction.
+ class
+SHA1-Digest: lKTWpdTd5zO01cSRuknwfAOSU+A=
+
+Name: org/eclipse/rap/ui/internal/intro/target/InstallTargetDialog.cla
+ ss
+SHA1-Digest: 5kD0k42B2CWeN77+13uwxZNKfU0=
+
+Name: org/eclipse/rap/ui/internal/intro/target/TargetSwitcher.class
+SHA1-Digest: Eou5NQBeNpckDZxFFKBmIGDxV/k=
+
+Name: intro/overviewExtensionContent.xml
+SHA1-Digest: rSarec0ZOZZrfXJG8n0feNYGsOM=
+

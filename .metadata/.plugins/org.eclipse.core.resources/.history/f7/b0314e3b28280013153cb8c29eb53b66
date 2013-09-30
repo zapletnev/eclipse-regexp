@@ -1,0 +1,7 @@
+package org.eclipse.regexp.ui.view;
+
+public class InputControl {
+
+	public InputControl(final Composite composite) {
+	}
+}

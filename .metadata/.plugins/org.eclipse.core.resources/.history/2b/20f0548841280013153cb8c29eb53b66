@@ -1,0 +1,14 @@
+package org.eclipse.regexp.ui.view;
+
+import org.eclipse.jface.action.Action;
+
+public class OpenSettings extends Action {
+
+	@Override
+	public void run() {
+		PreferenceDialog pref = PreferencesUtil.createPreferenceDialogOn(
+				window.getShell(), "myPreferencePage", null, null);
+		if (pref != null)
+			pref.open();
+	}
+}

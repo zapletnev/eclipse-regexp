@@ -1,0 +1,11 @@
+package org.eclipse.regexp.ui;
+
+public class RegexpUIConstants {
+
+	public static final String PLUGIN_ID = "org.eclipse.regexp.ui";
+	public static final String PREF_PAGE = PLUGIN_ID + ".prefs";
+
+	public static final String ICONS = "icons/";
+	public static final String ICONS_TOOLS = ICONS + "etool16/";
+	public static final String SETTINGS_ICON = ICONS_TOOLS + "settings16.png";
+}

@@ -1,0 +1,11 @@
+package org.eclipse.regexp.ui.common;
+
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Text;
+
+public class ControlsFactory {
+
+	public static Text createText(Composite composite) {
+		
+	}
+}

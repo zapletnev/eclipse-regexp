@@ -1,0 +1,9 @@
+package org.eclipse.regexp.ui.view;
+
+import org.eclipse.swt.widgets.Composite;
+
+public class InputControl {
+
+	public InputControl(final Composite composite) {
+	}
+}

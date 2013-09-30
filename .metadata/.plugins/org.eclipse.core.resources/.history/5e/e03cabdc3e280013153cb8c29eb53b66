@@ -1,0 +1,12 @@
+package org.eclipse.regexp.ui.view;
+
+import org.eclipse.swt.widgets.Dialog;
+import org.eclipse.swt.widgets.Shell;
+
+public class ConfigureSettings extends Dialog {
+
+	public ConfigureSettings(Shell parent) {
+		super(parent);
+	}
+
+}

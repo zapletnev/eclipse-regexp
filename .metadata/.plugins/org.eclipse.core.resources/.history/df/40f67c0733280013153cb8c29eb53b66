@@ -1,0 +1,21 @@
+package org.eclipse.regexp.ui.view;
+
+import org.eclipse.jface.action.Action;
+import org.eclipse.regexp.ui.view.input.InputSection;
+import org.eclipse.ui.ISharedImages;
+import org.eclipse.ui.PlatformUI;
+
+public class AddInputControl extends Action {
+
+	private InputSection section;
+
+	public AddInputControl(InputSection section) {
+		super("More input", PlatformUI.getWorkbench().getSharedImages()
+				.getImageDescriptor(ISharedImages.IMG_OBJ_ADD));
+		this.section = section;
+	}
+
+	@Override
+	public void run() {
+	}
+}

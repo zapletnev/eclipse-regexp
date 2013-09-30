@@ -1,0 +1,11 @@
+package org.eclipse.regexp.ui;
+
+import org.eclipse.ui.plugin.AbstractUIPlugin;
+
+public class RegexpUIPlugin extends AbstractUIPlugin {
+
+	public RegexpUIPlugin() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,18 @@
+package org.eclipse.regexp.ui.view;
+
+import org.eclipse.jface.layout.GridDataFactory;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.ui.forms.widgets.FormToolkit;
+
+public class InputControl {
+
+	public InputControl(final Composite composite, FormToolkit toolkit, final int index) {
+		toolkit.createLabel(inputPanel, "Input 1:");
+		final Text input1 = toolkit.createText(inputPanel, "");
+		GridDataFactory.swtDefaults().align(SWT.FILL, SWT.CENTER)
+				.grab(true, false).applyTo(input1);
+
+	}
+}

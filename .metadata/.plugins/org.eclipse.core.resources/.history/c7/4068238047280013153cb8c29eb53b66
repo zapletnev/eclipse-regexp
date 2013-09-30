@@ -1,0 +1,21 @@
+package org.eclipse.regexp;
+
+public class InputResult {
+
+	private String input;
+	private boolean mathes;
+	private String replaceFirst;
+	private String replaceAll;
+	private boolean lookingAt;
+	private boolean find;
+
+	public InputResult(String input, boolean mathes, String replaceFirst, String replaceAll,
+			boolean lookingAt, boolean find) {
+		this.input = input;
+		this.mathes = mathes;
+		this.replaceFirst = replaceFirst;
+		this.replaceAll = replaceAll;
+		this.lookingAt = lookingAt;
+		this.find = find;
+	}
+}

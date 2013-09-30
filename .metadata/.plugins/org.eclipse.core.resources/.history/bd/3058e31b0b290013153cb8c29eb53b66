@@ -1,0 +1,11 @@
+package org.eclipse.regexp;
+
+import java.util.Map;
+import java.util.regex.Pattern;
+
+import com.google.common.collect.Maps;
+
+public class RegexpConstanstants {
+
+	public static final String PLUGIN_ID = "org.eclipse.regexp";
+}

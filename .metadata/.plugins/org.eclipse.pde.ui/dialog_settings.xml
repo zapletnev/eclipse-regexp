@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="generateActivator"/>
+	<item value="true" key="uiPlugin"/>
+	<item value="false" key="rcpPlugin"/>
+	<item value="false" key="apiAnalysis"/>
+	<item value="false" key="osgiProject"/>
+	<item value="3.5 or greater" key="targetName"/>
+	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="20" key="DIALOG_Y_ORIGIN"/>
+			<item value="340" key="DIALOG_X_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="JavaAttributeWizard">
+		<section name="NewClassWizardPage">
+			<item value="true" key="create_constructor"/>
+			<item value="true" key="create_unimplemented"/>
+		</section>
+	</section>
+	<section name="PDEFormActionManager">
+	</section>
+</section>

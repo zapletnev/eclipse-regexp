@@ -1,0 +1,79 @@
+package org.eclipse.regexp;
+
+import static org.eclipse.regexp.RegexpConstanstants.PLUGIN_ID;
+
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
+
+import org.eclipse.core.runtime.IStatus;
+import org.eclipse.core.runtime.Status;
+import org.eclipse.core.runtime.preferences.ConfigurationScope;
+import org.eclipse.core.runtime.preferences.IEclipsePreferences;
+
+import com.google.common.base.Predicate;
+import com.google.common.collect.Collections2;
+
+public class RegexpEngine {
+
+	private RegexpEngine() {
+	}
+
+	private final Predicate<String> notEmpty = new Predicate<String>() {
+		@Override
+		public boolean apply(final String input) {
+			return input != null && !input.isEmpty();
+		}
+	};
+
+	public TestResult test(final String regexp, final String replacement,
+			final List<String> inputs) {
+		Collections2.filter(inputs, notEmpty);
+		TestResult result = new TestResult();
+
+		Pattern pattern = null;
+		try {
+			pattern = Pattern.compile(regexp, getFlags());
+		} catch (PatternSyntaxException ex1) {
+			result.setStatus(new Status(IStatus.ERROR, PLUGIN_ID,
+					"Could not compile pattern: " + regexp, ex1));
+		} catch (IllegalArgumentException ex2) {
+			result.setStatus(new Status(IStatus.ERROR, PLUGIN_ID,
+					"Could not compile pattern " + regexp, ex2));
+		}
+
+		if (pattern == null)
+			return result;
+
+		for (String input : inputs) {
+			Matcher matcher = pattern.matcher(input);
+			RegexpResult regexpResult = new RegexpResult(input,
+					matcher.matches(),
+					replacement != null ? matcher.replaceFirst(replacement)
+							: null,
+					replacement != null ? matcher.replaceAll(replacement)
+							: null, matcher.lookingAt(), matcher.find());
+
+			while (matcher.find()) {
+				regexpResult.addGroup(matcher.start(), matcher.end(),
+						matcher.group());
+			}
+			result.addRegexpResult(regexpResult);
+
+		}
+		return result;
+	}
+
+	public int getFlags() {
+		int flags = 0;
+		IEclipsePreferences regexpNode = ConfigurationScope.INSTANCE
+				.getNode(RegexpConstanstants.PLUGIN_ID);
+		for (String key : RegexpConstanstants.FLAGS.keySet()) {
+			if (regexpNode.getBoolean(key, false)) {
+				flags |= RegexpConstanstants.FLAGS.get(key);
+			}
+		}
+		return flags;
+	}
+}
