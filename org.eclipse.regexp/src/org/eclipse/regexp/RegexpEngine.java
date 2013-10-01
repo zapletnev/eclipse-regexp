@@ -13,6 +13,7 @@ package org.eclipse.regexp;
 
 import static org.eclipse.regexp.RegexpConstanstants.PLUGIN_ID;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -20,8 +21,6 @@ import java.util.regex.PatternSyntaxException;
 
 import org.eclipse.core.runtime.IStatus;
 import org.eclipse.core.runtime.Status;
-
-import com.google.common.collect.Lists;
 
 public class RegexpEngine {
 
@@ -50,7 +49,7 @@ public class RegexpEngine {
 
 			Matcher matcher = pattern.matcher(input);
 
-			List<RegexpResult.Group> groups = Lists.newArrayList();
+			List<RegexpResult.Group> groups = new ArrayList<RegexpResult.Group>();
 			while (matcher.find()) {
 				groups.add(new RegexpResult.Group(matcher.start(), matcher
 						.end(), matcher.group()));

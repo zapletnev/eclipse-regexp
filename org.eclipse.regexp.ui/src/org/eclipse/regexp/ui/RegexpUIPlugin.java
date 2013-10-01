@@ -11,6 +11,7 @@
  *******************************************************************************/
 package org.eclipse.regexp.ui;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
 
@@ -18,12 +19,10 @@ import org.eclipse.jface.preference.IPreferenceStore;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
 
-import com.google.common.collect.Maps;
-
 public class RegexpUIPlugin extends AbstractUIPlugin implements
 		RegexpUIConstants {
 
-	public static Map<String, Integer> FLAGS = Maps.newHashMap();
+	public static Map<String, Integer> FLAGS = new HashMap<String, Integer>();
 
 	static {
 		FLAGS.put(CANON_EQ, Pattern.CANON_EQ);

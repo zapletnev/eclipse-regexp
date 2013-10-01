@@ -11,6 +11,7 @@
  *******************************************************************************/
 package org.eclipse.regexp.ui.view.input;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.eclipse.core.databinding.ObservablesManager;
@@ -26,17 +27,13 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.ui.forms.widgets.FormToolkit;
 import org.eclipse.ui.forms.widgets.Section;
 
-import com.google.common.base.Function;
-import com.google.common.collect.Collections2;
-import com.google.common.collect.Lists;
-
 public class InputSection implements IValueChangeListener {
 
 	private FormToolkit toolkit;
 	private Section section;
 
-	private final List<InputListener> listeners = Lists.newArrayList();
-	private final List<InputControl> inputs = Lists.newArrayList();
+	private final List<InputListener> listeners = new ArrayList<InputListener>();
+	private final List<InputControl> inputs = new ArrayList<InputControl>();
 
 	private final ObservablesManager manager = new ObservablesManager();
 
@@ -79,16 +76,12 @@ public class InputSection implements IValueChangeListener {
 		handleValueChange(null);
 	}
 
-	public class InputControlToStr implements Function<InputControl, String> {
-		@Override
-		public String apply(final InputControl ctrl) {
-			return ctrl.getInput();
-		}
-	}
-
 	public String[] getInputs() {
-		return Collections2.transform(inputs, new InputControlToStr()).toArray(
-				new String[0]);
+		List<String> inputs = new ArrayList<String>();
+		for (InputControl ctrl : this.inputs) {
+			inputs.add(ctrl.getInput());
+		}
+		return inputs.toArray(new String[inputs.size()]);
 	}
 
 	public void addListener(final InputListener listener) {

@@ -11,24 +11,22 @@
  *******************************************************************************/
 package org.eclipse.regexp;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.eclipse.core.runtime.IStatus;
 
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Lists;
-
 public class TestResult {
 
 	private IStatus status;
-	private final List<RegexpResult> results = Lists.newArrayList();
+	private final List<RegexpResult> results = new ArrayList<RegexpResult>();
 
 	void addRegexpResult(final RegexpResult regexpResult) {
 		results.add(regexpResult);
 	}
 
 	public List<RegexpResult> getInputResults() {
-		return ImmutableList.copyOf(results);
+		return new ArrayList<RegexpResult>(results);
 	}
 
 	void setStatus(final IStatus status) {

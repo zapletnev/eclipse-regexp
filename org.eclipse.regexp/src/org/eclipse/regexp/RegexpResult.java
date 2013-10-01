@@ -11,9 +11,8 @@
  *******************************************************************************/
 package org.eclipse.regexp;
 
+import java.util.ArrayList;
 import java.util.List;
-
-import com.google.common.collect.ImmutableList;
 
 public class RegexpResult {
 
@@ -52,6 +51,6 @@ public class RegexpResult {
 		this.replaceAll = replaceAll;
 		this.lookingAt = lookingAt;
 		this.find = !groups.isEmpty();
-		this.groups = ImmutableList.copyOf(groups);
+		this.groups = new ArrayList<Group>(groups);
 	}
 }
