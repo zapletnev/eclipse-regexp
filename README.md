@@ -16,3 +16,7 @@ This plug-in helps you quickly and easily test regular expressions during develo
 
 
 ![Regexp](http://i.imgur.com/jvdc6mt.png?1)
+
+<a href="http://with-eclipse.github.io/" target="_blank">
+<img alt="with-Eclipse logo" src="http://with-eclipse.github.io/with-eclipse-0.jpg" />
+</a>
